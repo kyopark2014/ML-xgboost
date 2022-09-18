@@ -86,8 +86,69 @@ threshold = 0.5
 predictions = [1 if e >= 0.5 else 0 for e in predictions_prob ] 
 ```
 
-이
+이때, predictions_prob, predictions은 아래와 같은 값들을 가집니다. 
 
+```python
+print(predictions_prob[0:20])
+
+[0.10092484 0.08251919 0.4293206  0.23539546 0.6692123  0.290863
+ 0.69971937 0.66698503 0.8422588  0.13136372 0.46003887 0.6096221
+ 0.01886459 0.11602865 0.7805386  0.14637303 0.31743652 0.1873799
+ 0.0977393  0.11276104]
+
+print(predictions[0:20])
+[0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+```
+
+아래와 같이 결과를 정리할 수 있습니다. 
+
+```python
+from sklearn.metrics import classification_report
+
+print(classification_report(y_true=y_test, y_pred = predictions))
+```
+
+이때의 결과는 아래와 같습니다. 
+```python
+              precision    recall  f1-score   support
+
+           0       0.99      0.72      0.83       967
+           1       0.09      0.79      0.16        33
+
+    accuracy                           0.72      1000
+   macro avg       0.54      0.75      0.50      1000
+weighted avg       0.96      0.72      0.81      1000
+```
+
+confusion_matrix를 구하면 아래와 같습니다. 
+
+```python
+from sklearn.metrics import confusion_matrix
+
+cm = confusion_matrix(y_true= y_test, y_pred= predictions)    
+print(cm)
+```
+
+이때의 결과는 아래와 같습니다. 
+
+```python
+[[697 270]
+ [  7  26]]
+```
+
+아래와 같이 MSE와 표준편차를 구할 수 있습니다. 
+```python
+from sklearn.metrics import mean_squared_error
+mse = mean_squared_error(y_test, predictions)
+print(mse)
+
+import numpy as np
+std = np.std(y_test - predictions)
+print(std)
+```
+
+이때의 
+이때의 값은 
 
 
 ## Reference
