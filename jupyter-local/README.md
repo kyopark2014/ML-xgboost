@@ -2,6 +2,7 @@
 
 ## Cross Validation
 
+```python
 Usage
 xgb.cv(
   params = list(),
@@ -25,6 +26,7 @@ xgb.cv(
   callbacks = list(),
   ...
 )
+```
 
 ### params 
 
