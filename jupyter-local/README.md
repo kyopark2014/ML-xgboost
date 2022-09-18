@@ -1,5 +1,7 @@
 # XGBoost - Local
 
+[Froud Detection 예제](https://github.com/kyopark2014/ML-xgboost/blob/main/jupyter-local/xgboost-fraud-detection-pytorch.ipynb)에 대해 아래와 같이 설명합니다. 
+
 ## Hyperparameter
 
 ```python
