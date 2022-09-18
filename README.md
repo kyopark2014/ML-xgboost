@@ -1,5 +1,9 @@
-# ML-xgboost
-It shows xgboost algorithm for machine learning.
+# XGBoost Algorithm
+
+[Dataset: 보험청구사기](https://github.com/kyopark2014/aws-sagemaker/blob/main/dataset.md)을 이용하여 XGBoost Algorithm을 활용하고자 합니다. 
+
+
+
 
 ## Reference
 
