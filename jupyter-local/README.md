@@ -46,7 +46,7 @@ cv_results = xgb.cv(
     seed = 0)
 ```
 
-이대 결과는 아래와 같습니다.
+이때 결과는 아래와 같습니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/190918913-c46b4a23-76ef-4ae2-ac8f-56ffee12e01a.png)
 
@@ -60,7 +60,33 @@ print(f"[1]#011validation-auc:{cv_results.iloc[-1]['test-auc-mean']}")
 [1]#011validation-auc:0.8218406316371057
 ```
 
+## Evaluation
 
+Model과 Test dataset을 로드하고 데이터를 준비합니다. 
+
+```python
+model = xgboost.XGBRegressor()
+model.load_model("xgboost-model-pytorch")
+
+import pandas as pd
+df = pd.read_csv('../dataset/test.csv')
+
+y_test = df.iloc[:, 0].astype('int')    
+df.drop(df.columns[0], axis=1, inplace=True)
+
+X_test = df.values
+```
+
+predict()을 수행합니다. 
+
+```python
+predictions_prob = model.predict(X_test)
+
+threshold = 0.5
+predictions = [1 if e >= 0.5 else 0 for e in predictions_prob ] 
+```
+
+이
 
 
 
