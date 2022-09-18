@@ -48,7 +48,7 @@ cv_results = xgb.cv(
 
 ![image](https://user-images.githubusercontent.com/52392004/190918913-c46b4a23-76ef-4ae2-ac8f-56ffee12e01a.png)
 
-펑균값을 구해서 Matric으로 저장합니다.
+펑균값을 구하면 Train dataset은 0.94, Validation dataset은 0.82의 결과를 얻었습니다. 
 
 ```python
 print(f"[0]#011train-auc:{cv_results.iloc[-1]['train-auc-mean']}")
