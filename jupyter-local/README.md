@@ -62,6 +62,8 @@ print(f"[1]#011validation-auc:{cv_results.iloc[-1]['test-auc-mean']}")
 
 ## Evaluation
 
+[Evaluation 상세코드](https://github.com/kyopark2014/ML-xgboost/blob/main/jupyter-local/xgboost-evaluation-pytorch.ipynb)의 내용을 아래와 같이 설명합니다. 
+
 Model과 Test dataset을 로드하고 데이터를 준비합니다. 
 
 ```python
@@ -147,8 +149,8 @@ std = np.std(y_test - predictions)
 print(std)
 ```
 
-이때의 
-이때의 값은 
+이때의 값은 MSE가 0.277이고, 표준편차가 0.4558848538830812 입니다. 
+
 
 
 ## Reference
