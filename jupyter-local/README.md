@@ -110,7 +110,8 @@ from sklearn.metrics import classification_report
 print(classification_report(y_true=y_test, y_pred = predictions))
 ```
 
-이때의 결과는 아래와 같습니다. 
+이때의 결과는 아래와 같습니다. 세부항목의 의미는 [Confusion Matrix (오차행렬)](https://github.com/kyopark2014/ML-Algorithms/blob/main/confusion-matrix.md)에서 확인할 수 있습니다. 
+
 ```python
               precision    recall  f1-score   support
 
