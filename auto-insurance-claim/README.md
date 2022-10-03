@@ -2,7 +2,7 @@
 
 [Dataset: 보험청구사기](https://github.com/kyopark2014/aws-sagemaker/blob/main/dataset.md)에 대하여 XGBoost Algorithm을 활용하여 분석합니다. 
 
-[xgboost-fraud-detection-pytorch.ipynb](https://github.com/kyopark2014/ML-xgboost/blob/main/jupyter-local/xgboost-fraud-detection-pytorch.ipynb)에 대해 아래와 같이 설명합니다. 
+[xgboost-fraud-detection-pytorch.ipynb](https://github.com/kyopark2014/ML-xgboost/blob/main/auto-insurance-claim/jupyter-local/xgboost-fraud-detection-pytorch.ipynb)에 대해 아래와 같이 설명합니다. 
 
 ## Hyperparameter
 
