@@ -19,6 +19,13 @@ data.head()
 
 ## xgboost로 분석하기 
 
+### Breast Cancer Prediction with XGBoost
+
+[Breast Cancer Prediction with XGBoost](https://www.kaggle.com/code/armagansarikey/breast-cancer-prediction-with-xgboost)의 내용을 정리한 [xgboost-breast-canser.ipynb](https://github.com/kyopark2014/ML-xgboost/blob/main/breast-cancer/xgboost-breast-canser.ipynb)에 대해 설명합니다. 
+
+
+
+
 ## Reference
 
 [Dataset - sklearn.datasets.load_breast_cancer](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
