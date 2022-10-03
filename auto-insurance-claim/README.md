@@ -1,4 +1,4 @@
-#  XGBoost를 이용한 자동차보험의 Fraud detection
+#  XGBoost를 이용한 자동차 보험 사기 검출 
 
 ## 데이터 가져오기 
 
