@@ -8,7 +8,7 @@
 ## 보험사기 분석하기
 
 
-[자동차 보험 사기 검출](https://github.com/kyopark2014/ML-xgboost/tree/main/auto-insurance-claim)에서는 XGBoost로 Breast cancer 분석하는 과정을 설명합니다. 
+[자동차 보험 사기 검출](https://github.com/kyopark2014/ML-xgboost/tree/main/auto-insurance-claim)에서는 XGBoost로 자동차 보험 사기 검출을 분석하는 과정을 설명합니다. 
 
 
 
