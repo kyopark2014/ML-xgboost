@@ -46,7 +46,7 @@ XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
               tree_method='exact', validate_parameters=1, verbosity=None)
 ```              
 
-아래와 같이 confusion matrix값을 확인합니다. 
+아래와 같이 [confusion matrix](https://github.com/kyopark2014/ML-Algorithms/blob/main/confusion-matrix.md)값을 확인합니다. 
 
 ```python
 from sklearn.metrics import confusion_matrix
