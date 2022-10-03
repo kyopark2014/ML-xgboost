@@ -1,8 +1,12 @@
 # XGBoost Algorithm
 
+## 보험사기 분석하기
+
 [Dataset: 보험청구사기](https://github.com/kyopark2014/aws-sagemaker/blob/main/dataset.md)에 대하여 XGBoost Algorithm을 활용하여 분석합니다. 
 
+## XGBoost로 Breast cancer 분석하기
 
+[Breast cancer 분석](https://github.com/kyopark2014/ML-xgboost/blob/main/breast-cancer/README.md)에서는 XGBoost로 Breast cancer 분석하는 과정을 설명합니다. 
 
 
 ## Reference
