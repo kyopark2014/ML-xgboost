@@ -15,7 +15,7 @@ list(data.target_names)
 
 2) csv에서 가져오기 
 
-[Breast_cancer_data.csv](https://github.com/Suji04/ML_from_Scratch/blob/master/Breast_cancer_data.csv)에서 아래처럼 데이터를 직접 가져올 수 있습니다.
+[Breast_cancer_data.csv](https://github.com/Suji04/ML_from_Scratch/blob/master/Breast_cancer_data.csv)에서 아래처럼 데이터를 직접 가져올 수 있습니다. 여기의 데이터는 [Dataset - Breast Cancer Prediction with XGBoost](https://www.kaggle.com/code/armagansarikey/breast-cancer-prediction-with-xgboost/data)와 동일합니다. 
 
 ```python
 datapath = "https://raw.githubusercontent.com/Suji04/ML_from_Scratch/master/Breast_cancer_data.csv"
