@@ -46,9 +46,30 @@ XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
               tree_method='exact', validate_parameters=1, verbosity=None)
 ```              
 
-아래와 같이 
-   
-   
+아래와 같이 confusion matrix값을 확인합니다. 
+
+```python
+from sklearn.metrics import confusion_matrix
+
+cm = confusion_matrix(y_pred, y_test)
+cm
+```   
+
+이때의 결과는 아래와 같습니다. 
+
+```json
+array([[ 60,   5],
+       [  7, 116]])
+```
+
+score를 구하면 아래와 같습니다. 
+
+```python
+print(classifier.score(X_train, y_train))
+print(classifier.score(X_test, y_test))
+1.0
+0.9361702127659575
+```
 
 ## Reference
 
