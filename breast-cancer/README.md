@@ -1,4 +1,4 @@
-#  XGBoost로 breast cancer 분석하기 
+#  XGBoost로 Breast cancer 분석하기 
 
 ## 데이터 가져오기 
 
@@ -60,6 +60,27 @@ cm
 ```java
 array([[ 60,   5],
        [  7, 116]])
+```
+
+classification report는 아래처럼 구할 수 있습니다. 
+
+```python
+from sklearn.metrics import classification_report
+
+print(classification_report(y_true=y_pred, y_pred = y_test))
+```
+
+이때의 결과는 아래와 같습니다. 
+
+```java
+              precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91        65
+           1       0.96      0.94      0.95       123
+
+    accuracy                           0.94       188
+   macro avg       0.93      0.93      0.93       188
+weighted avg       0.94      0.94      0.94       188
 ```
 
 score를 구하면 아래와 같습니다. 
