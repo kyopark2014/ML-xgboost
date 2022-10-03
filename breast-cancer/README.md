@@ -17,7 +17,7 @@ data.head()
 
 ![image](https://user-images.githubusercontent.com/52392004/193499786-63c3c796-a176-48d6-8065-570e3a064930.png)
 
-## xgboost로 분석하기 
+## XGBoost로 분석하기 
 
 ### Breast Cancer Prediction with XGBoost
 
