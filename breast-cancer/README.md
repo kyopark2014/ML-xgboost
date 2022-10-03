@@ -23,8 +23,32 @@ data.head()
 
 [Breast Cancer Prediction with XGBoost](https://www.kaggle.com/code/armagansarikey/breast-cancer-prediction-with-xgboost)의 내용을 정리한 [xgboost-breast-canser.ipynb](https://github.com/kyopark2014/ML-xgboost/blob/main/breast-cancer/xgboost-breast-canser.ipynb)에 대해 설명합니다. 
 
+아래와 같이 XGBClassifier를 정의하고 학습을 수행합니다. 
 
+```python
+from xgboost import XGBClassifier
 
+classifier = XGBClassifier()
+classifier.fit(X_train, y_train)
+```
+
+이때 사용된 Hyperparameter는 로그에서 아래처럼 확인합니다. 
+
+```python
+XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=100, n_jobs=16,
+              num_parallel_tree=1, predictor='auto', random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None)
+```              
+
+아래와 같이 
+   
+   
 
 ## Reference
 
