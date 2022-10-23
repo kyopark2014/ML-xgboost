@@ -4,4 +4,4 @@
 
 이것은 [xgboost-regression-bike.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/xgboost/src/xgboost-regression-bike.ipynb)와 같이 jupyter notebook을 이용하여 분석되었습니다.
 
-여기서는 [ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에 따라, jupyter notebook으로 생성된 알고리즘을 python code로 변환합니다. 
+여기서는 [ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에 따라, jupyter notebook으로 생성된 알고리즘을 [bike-rental.py](https://github.com/kyopark2014/ML-xgboost/blob/main/bike-sharing/src/bike-rental.py)와 같이 python code로 변환합니다. 
