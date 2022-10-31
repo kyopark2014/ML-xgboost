@@ -100,7 +100,9 @@ reg_rmse = np.sqrt(reg_mse)
 print('Elapsed time: %0.2fs' % (time.time()-start))        
 print('RMSE: %0.3f' % (reg_rmse))  
 
-model_name = "../output/xgboost_wine_quality.pkl"
+model_name = "../output/xgboost_wine_quality.json"
 
 model.save_model(model_name)
+
+
 
