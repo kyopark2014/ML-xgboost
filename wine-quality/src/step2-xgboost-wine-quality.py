@@ -110,4 +110,5 @@ def main():
     model_name = "../output/xgboost_wine_quality.json"
     best_model.save_model(model_name)
 
-main()
+if __name__ == '__main__':
+    main()
