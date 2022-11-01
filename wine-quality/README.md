@@ -4,7 +4,9 @@
 
 ## Python 코드로 변환 
 
-[ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에 따라 python 코드로 변환합니다.
+Wine Quality 학습을 위해 [xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality.py)을 생성하였습니다. 
+
+이것은 [ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에 따라 아래처럼 생성됩니다. 
 
 
 1) 확장자가 ipyb인 jupyter notebook 파일을 아래 명령어를 이용하여 python 파일로 변환 합니다. 
@@ -29,6 +31,8 @@ jupyter notebook에서 데이터의 구조를 이해하고, 도표를 작성할�
 if __name__ == '__main__':
     main()
 ```
+
+
 
 ## Inference
 
