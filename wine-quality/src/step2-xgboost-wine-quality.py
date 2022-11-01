@@ -2,11 +2,6 @@ import numpy as np
 import pandas as pd
 import time
 
-X_train = []
-X_test = []
-y_train = []
-y_test = []
-
 # Utility function to report best scores
 def report(results, n_top=3):
     for i in range(1, n_top + 1):
