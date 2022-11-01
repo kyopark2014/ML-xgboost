@@ -13,6 +13,9 @@
 
 [자동차 보험 사기 검출](https://github.com/kyopark2014/ML-xgboost/tree/main/auto-insurance-claim)에서는 XGBoost로 자동차 보험 사기 검출을 분석하는 과정을 설명합니다. 
 
+## Wine Quality 측정 
+
+[Wine Quality](https://github.com/kyopark2014/ML-xgboost/tree/main/wine-quality)에서는 XGBoost를 이용한 회귀(Regression) 문제를 설명하고 있습니다.  
 
 
 
