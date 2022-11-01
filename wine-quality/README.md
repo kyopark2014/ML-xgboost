@@ -38,3 +38,6 @@ if __name__ == '__main__':
 
 [xgboost-wine-quality-inference.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality-inference.ipynb)을 참조하여 inference를 위한 python을 [xgboost-wine-quality-inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality-inference.py)과 같이 생성합니다 
 
+여기서,"load_samples()은 
+[xgboost-wine-quality-inference.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality-inference.ipynb)을 참조하여 inference를 위한 python을 [xgboost-wine-quality-inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality-inference.py)과 같이 생성합니다 
+
