@@ -4,7 +4,9 @@
 
 [ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에 따라 python 코드로 변환합니다.
 
-1) 
+1) 확장자가 ipyb인 파일을 아래 명령어를 이용하여 python 파일로 변환 합니다. 
+
+https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/step0-xgboost-wine-quality.py
 
 2) 
 
