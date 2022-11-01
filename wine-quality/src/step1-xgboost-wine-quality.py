@@ -9,21 +9,6 @@ X = df.drop(['quality'], axis=1)
 
 X = pd.get_dummies(X)  
 
-# Utility function to report best scores
-def report(results, n_top=3):
-    for i in range(1, n_top + 1):
-        candidates = np.flatnonzero(results["rank_test_score"] == i)
-        for candidate in candidates:
-            print("Model with rank: {0}".format(i))
-            print(
-                "Mean validation score(=RMSE): {0:.3f}".format(
-                    np.sqrt(-results["mean_test_score"][candidate]),
-                )
-            )
-            print("Parameters: {0}".format(results["params"][candidate]))
-            print("")
-
-
 from bayes_opt import BayesianOptimization
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_squared_error
