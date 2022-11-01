@@ -2,6 +2,8 @@
 
 [XGBoost를 이용한 Wine Quality](https://github.com/kyopark2014/ML-Algorithms/tree/main/kaggle/xgboost-wine-quality)에서 구현한 [xgboost-wine-quality.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality.ipynb)는 Jupyter Notebook 파일로서, 데이터의 전처리 및 XGBoost algotirhm에 대한 Hyperparameter Optimization을 수행할 수 있습니다. 하지만 이를 실제 사용하기 위해서는 python 파일로 변경하여야 합니다. 
 
+## Python 코드로 변환 
+
 [ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에 따라 python 코드로 변환합니다.
 
 
@@ -28,7 +30,7 @@ if __name__ == '__main__':
     main()
 ```
 
-4) Inference
+## Inference
 
 [xgboost-wine-quality-inference.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality-inference.ipynb)을 참조하여 inference를 위한 python을 [xgboost-wine-quality-inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality-inference.py)과 같이 생성합니다 
 
