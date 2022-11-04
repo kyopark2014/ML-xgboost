@@ -9,8 +9,6 @@ model_name = "../output/xgboost_wine_quality.json"
 model.load_model(model_name)
     
 def handler(data): 
-    start = time.time()
-
     # inference
     results = model.predict(data)
     print('result:', results)
