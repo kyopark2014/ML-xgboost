@@ -30,7 +30,7 @@ if __name__ == '__main__':
 ```
 
 
-4) jupyter notebook이 python 코드로 변환되었으므로 아래와 같이 학습을 수행합니다. [xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality.py)는 학습한 결과를 [xgboost_wine_quality.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost_wine_quality.json)로 저장하고, 추론 시험을 위해 [samples.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/data/samples.json)을 생성합니다. 
+4) jupyter notebook이 python 코드로 변환되었으므로 아래와 같이 학습을 수행합니다. [xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality.py)는 학습한 결과를 [xgboost_wine_quality.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost_wine_quality.json)로 저장하고, 추론 시험을 위해 [samples.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/samples.json)을 생성합니다. 
 
 ```python
 python3 xgboost-wine-quality.py
@@ -41,7 +41,7 @@ python3 xgboost-wine-quality.py
 
 [xgboost-wine-quality-inference.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality-inference.ipynb)에서 predict()을 이용하여 inference 동작을 시험하였습니다. [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)와 같이 event에서 body를 추출하여 추론(inference)을 할 수 있도록 하였습니다. 
 
-추론 동작이 잘 동작하는것을 확인하기 위하여 [inference-test.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference-test.py)에서는 samples.json을 로드하여 [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)의 handler를 호출합니다. 추론 동작은 아래와 같이 확인 할 수 있습니다. 
+추론 동작이 잘 동작하는것을 확인하기 위하여 [inference-test.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference-test.py)에서는 [samples.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/samples.json)을 로드하여 [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)의 handler를 호출합니다. 추론 동작은 아래와 같이 확인 할 수 있습니다. 
 
 ```python
 python3 inference-test.py
