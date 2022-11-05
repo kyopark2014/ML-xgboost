@@ -2,7 +2,7 @@
 
 [XGBoost를 이용한 Wine Quality](https://github.com/kyopark2014/ML-Algorithms/tree/main/kaggle/xgboost-wine-quality)에서는 [XGBoost](https://github.com/kyopark2014/ML-Algorithms/blob/main/xgboost.md)를 이용하여 [Regression](https://github.com/kyopark2014/ML-Algorithms/blob/main/regression.md)을 수행하였습니다. [xgboost-wine-quality.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality.ipynb)은 Jupyter Notebook 파일로서, 데이터 전처리 및 XGBoost algotirhm에 대한 Hyperparameter Optimization을 수행합니다. 본격적인 학습을 수행하기 위해서는 jupyter notebook으로 검증된 알고리즘을 python으로 변환하여야 합니다. 
 
-## Python 코드로 학습(Tranining) 수행
+## Tranining
 
 [ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에서는 상세한 변환 방법에 대해 설명하고 있습니다.
 
@@ -29,6 +29,13 @@ jupyter notebook에서 데이터의 구조를 이해하기 위해 사용했던 �
 ```python
 if __name__ == '__main__':
     main()
+```
+
+
+4) jupyter notebook이 python 코드로 변환되었으므로 아래와 같이 학습을 수행합니다. [xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality.py)는 학습한 결과를 [xgboost_wine_quality.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost_wine_quality.json)로 저장하고, 추론 시험을 위해 [samples.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/data/samples.json)을 생성합니다. 
+
+```python
+python3 xgboost-wine-quality.py
 ```
 
 
