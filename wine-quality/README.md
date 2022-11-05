@@ -4,9 +4,7 @@
 
 ## Tranining
 
-[ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에서는 상세한 변환 방법에 대해 설명하고 있습니다.
-
-[xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality.py)을 생성하였습니다. 
+[ML 알고리즘을 Python 코드로 변환](https://github.com/kyopark2014/ML-Algorithms/blob/main/python-translation.md)에 따라서 jupyter notebook 파일을 [xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality.py)로 변환할 수 있습니다. 아래는 상세 동작을 설명합니다. 
 
 1) 확장자가 ipyb인 jupyter notebook 파일을 아래 명령어를 이용하여 python 파일로 변환 합니다. 
 
@@ -44,6 +42,4 @@ python3 xgboost-wine-quality.py
 [xgboost-wine-quality-inference.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality-inference.ipynb)에서 predict()을 이용하여 inference 동작을 시험하였습니다. [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)와 같이 event에서 body를 추출하여 추론(inference)을 할 수 있도록 하였습니다. 
 
 추론 동작이 잘 동작하는것을 확인하기 위하여 [inference-test.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference-test.py)에서는 samples.json을 로드하여 [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)의 handler를 호출합니다.
-아래ㅇ
-추론 동작이 잘 동작하는것을 확인하기 위하여 [inference-test.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference-test.py)에서는 samples.json을 로드하여 [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)의 handler를 호출합니다.
-추론 동작이 잘 동작하는것을 확인하기 위하여 [inference-test.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference-test.py)에서는 samples.json을 로드하여 [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)의 handler를 호출합니다. 
+
