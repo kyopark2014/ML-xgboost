@@ -116,7 +116,7 @@ def main():
     best_model.save_model(model_name)
 
     # save test dataset
-    X_test[:2].to_json('../data/samples.json',orient='records')
+    X_test[:2].to_json('samples.json',orient='records')
 
 if __name__ == '__main__':
     main()
