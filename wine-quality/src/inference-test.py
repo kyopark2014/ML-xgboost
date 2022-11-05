@@ -5,7 +5,7 @@ from xgboost import XGBRegressor
 from inference import handler  
 
 def load_event():
-    json_file = pd.read_json('../data/samples.json')
+    json_file = pd.read_json('samples.json')
 
     json_data = json_file.to_json(orient='records')
 
