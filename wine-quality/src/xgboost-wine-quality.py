@@ -112,7 +112,7 @@ def main():
     best_model = get_best_model(X_train, X_test, y_train, y_test, best_params)
 
     # save the trained model
-    model_name = "../output/xgboost_wine_quality.json"
+    model_name = "xgboost_wine_quality.json"
     best_model.save_model(model_name)
 
     # save test dataset
