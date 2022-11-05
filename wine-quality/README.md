@@ -1,6 +1,6 @@
 # Wine Quality (Regression)
 
-[XGBoost를 이용한 Wine Quality](https://github.com/kyopark2014/ML-Algorithms/tree/main/kaggle/xgboost-wine-quality)에서는 [XGBoost](https://github.com/kyopark2014/ML-Algorithms/blob/main/xgboost.md)를 이용하여 [Regression](https://github.com/kyopark2014/ML-Algorithms/blob/main/regression.md)을 수행하였습니다. [xgboost-wine-quality.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality.ipynb)은 Jupyter Notebook 파일로서, 데이터 전처리 및 XGBoost algotirhm에 대한 [Hyperparameter Optimization](https://github.com/kyopark2014/ML-Algorithms/blob/main/hyperparameter-optimization.md)을 수행합니다. 여기서는 본격적인 학습을 수행하기 위해서는 jupyter notebook으로 검증된 알고리즘을 python으로 변환하고, 학습(Training)과 추론(Inference)를 수행합니다. 
+[XGBoost를 이용한 Wine Quality](https://github.com/kyopark2014/ML-Algorithms/tree/main/kaggle/xgboost-wine-quality)에서는 [XGBoost](https://github.com/kyopark2014/ML-Algorithms/blob/main/xgboost.md)를 이용하여 [Regression](https://github.com/kyopark2014/ML-Algorithms/blob/main/regression.md)을 수행하였습니다. [xgboost-wine-quality.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality.ipynb)은 Jupyter Notebook 파일로서, 데이터 전처리 및 XGBoost algotirhm에 대한 [Hyperparameter Optimization](https://github.com/kyopark2014/ML-Algorithms/blob/main/hyperparameter-optimization.md)을 수행합니다. 여기서는 본격적인 학습을 수행하기 위해서 jupyter notebook으로 검증된 알고리즘을 python으로 변환하여, 학습(Training)과 추론(Inference)를 수행합니다. 
 
 ## Tranining
 
