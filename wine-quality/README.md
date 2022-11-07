@@ -39,9 +39,9 @@ python3 xgboost-wine-quality.py
 
 ## Inference
 
-[xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality.py)을 이용하여 생성한 모델을 이용하여 inference 동작을 수행합니다. [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)는 event를 입력으로 받아서, 추론에 적합한 형태로 변환한후에 추론(inference) 수행하고 결과를 리턴합니다.
+[xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/xgboost-wine-quality.py)을 이용하여 생성한 모델을 이용하여 추론 (inference) 동작을 수행합니다. [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)는 event를 입력으로 받아서, 추론에 적합한 형태로 변환한후에 추론을 수행하고 결과를 리턴합니다.
 
-추론 동작이 잘 동작하는것을 확인하기 위하여 [inference-test.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference-test.py)에서는 [samples.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/samples.json)을 로드하여 [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)의 handler를 호출합니다. 추론 동작은 아래와 같이 확인 할 수 있습니다. 
+추론을 수행하는 [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)의 동작을 검증하기 위하여, [inference-test.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference-test.py)는 [samples.json](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/samples.json)을 로드하여, Lambda의 입력인 event를 생성한 후에, [inference.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/inference.py)의 handler()를 호출합니다. 추론 동작은 아래와 같이 확인 할 수 있습니다. 
 
 ```python
 python3 inference-test.py
