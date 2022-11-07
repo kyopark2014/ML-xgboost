@@ -21,7 +21,7 @@ jupyter notebook에서 데이터의 구조를 이해하기 위해 사용했던 �
 
 3) Python 함수로 리팩터링
 
-함수 형태로 refactoring을 하면, 코드를 읽기 쉬워지고 유지 관리가 용이해집니다. [step2-xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/step2-xgboost-wine-quality.py)와 같이 함수로 변환합니다.
+함수 형태로 refactoring을 하면, 코드가 읽기 쉬워지고 유지 관리가 용이해집니다. [step2-xgboost-wine-quality.py](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/step2-xgboost-wine-quality.py)와 같이 함수로 변환합니다.
 이때, main은 진입점(entry point)이므로 실행중인지 여부를 확인하여 아래처럼 사용합니다. 
 
 ```python
