@@ -11,7 +11,7 @@
 아래 명령어로 [xgboost-wine-quality.ipynb](https://github.com/kyopark2014/ML-Algorithms/blob/main/kaggle/xgboost-wine-quality/xgboost-wine-quality.ipynb)에서 [step0-xgboost-wine-quality.py ](https://github.com/kyopark2014/ML-xgboost/blob/main/wine-quality/src/step0-xgboost-wine-quality.py)을 생성합니다.
 
 ```java
-jupyter nbconvert jupyter nbconvert xgboost-wine-quality.ipynb --to script --output step0-xgboost-wine-quality
+jupyter nbconvert xgboost-wine-quality.ipynb --to script --output step0-xgboost-wine-quality
 ```
 
 
